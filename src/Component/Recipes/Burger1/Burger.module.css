@@ -1,0 +1,16 @@
+.image{
+    padding: 3vw;
+    width:25vw;
+    height: 25vw;
+}
+.burger{
+
+}
+.image >img{
+    height: 100%;
+    width: 100%;
+}
+p{
+    text-align: left;
+    margin-left: 2vw;
+}

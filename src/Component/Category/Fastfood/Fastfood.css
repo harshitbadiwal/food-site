@@ -1,0 +1,54 @@
+.cards{
+    display: flex;
+}
+.card{
+    display: flex;
+    padding: 1vw;
+    border: .5px solid black;
+    border-radius: 15px;
+    height: 8vw;
+    width: 23vw;
+    margin: auto;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 2vw;
+}
+.allrecipies{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card:hover{
+    background-color: rgb(241, 234, 234);
+}
+.cardImage{
+height: 8vw;
+
+}
+.cardImage img{
+    height: 100%;
+    width: 100%;
+}
+.carddis{
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+@media (max-width:540px){
+    .cards{
+        flex-direction: column;
+        margin: auto;
+    }
+    .card{
+        height: 100%;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5vw;
+
+    }
+    .cardImage{
+        height:100%
+    }
+    .carddis{
+        font-size: 4vw;
+    }
+}
